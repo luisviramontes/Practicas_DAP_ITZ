@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import { Text, StyleSheet } from 'react-native';
 
 const ComponenteTexto = ()=>{
+
   const[titulo,setTitulo]=useState("Hola soy ITZ ");
   const texto = "Hola mundo";
 
@@ -14,9 +15,7 @@ const ComponenteTexto = ()=>{
   return(
     <Text style={styles.basetexto}>
         {'\n'}
-        {'\n'}
-        {'\n'}
-        {'\n'}
+
       <Text style={styles.TituloTexto} onPress={presionarTitulo}>
         {titulo}
         {'\n'}
