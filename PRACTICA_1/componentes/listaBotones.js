@@ -6,12 +6,12 @@ const Separador = () => <View style={StyleSheet.separador}></View>;
 const ListaBotones = () => {
     return (
         <SafeAreaView>
-            <View styles={styles.contenedor_principal}>
+            <View style={styles.contenedor_principal}>
                 <View>
                     <Text style={styles.titulo}>
                         Este es un ejemplo de un botón que al presionarlo lanza un mensaje
                     </Text>
-                    <Button title='Presioname' onPress={() => alert("Este es un simple botón")} />
+        
                 </View>
                 <Separador />
                 <View>
@@ -36,7 +36,6 @@ const ListaBotones = () => {
 
                 </View>
             </View>
-
         </SafeAreaView>
     )
 
